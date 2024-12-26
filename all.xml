@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testcase.LoginTest" />
+			<class name="testcase.MyFirstTestFW" />
+			<class name="testcase.MyApiTest" />
+			<class name="testcase.VerifyTitleTest" />
+			<class name="testcase.MyFirstTestReadFile" />
+			<class name="base.BaseTest" />
+			<class name="testcase.SkipDemoTest" />
+
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
